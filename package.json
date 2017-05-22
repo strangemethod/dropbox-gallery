@@ -2,13 +2,15 @@
   "name": "dropbox-gallery",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.15.3"
+    "express": "^4.15.3",
+    "passport": "^0.3.2",
+    "passport-dropbox-oauth2": "^1.1.0"
   }
 }
